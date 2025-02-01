@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../style/Style01.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about1.html">My Adventures</a></li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                    <!-- Updated dropdown class -->
+                    <ul class="dropdown-menu">
+                        <li><a href="Resume1.html">Resume Without CSS</a></li>
+                        <li><a href="Resume2.html">Resume With CSS</a></li>
+                        <li><a href="movie-ranking.html">Movie Ranking</a></li>
+                        <li><a href="Motivational Meme.html">Meme</a></li>
+                        <li><a href="Flag.html">Flag</a></li>
+                        <li><a href="Web Design Agency.html">Web Design Agency</a></li>
+                        <li><a href="Mondrain Painting.html">Mondrain Painting</a></li>
+                        <li><a href="Birthday.html">Birthday Invitation</a></li>
+                        <li><a href="Tindog.html">Tin Dog</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="text-center my-4">
+        <h1>Check out my amazing adventures!</h1>
+        <h2>Use the left and right arrows to go through the pictures.</h2>
+    </div>
+    <!-- Carousel Section -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style="width: 45%; height: 45%; margin: 0 auto;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/images/Pic1.jpg" class="d-block w-100" alt="Image 1" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">The Great Wall of China</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic9.jpg" class="d-block w-100" alt="Image 2" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Greece</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic3.jpg" class="d-block w-100" alt="Image 3" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Japan</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic4.jpg" class="d-block w-100" alt="Image 4" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Ramen in Japan</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic5.jpg" class="d-block w-100" alt="Image 5" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Japan</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic6.jpg" class="d-block w-100" alt="Image 6" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Snorkling</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic7.jpg" class="d-block w-100" alt="Image 7" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Shanghai</div>
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/images/Pic8.jpg" class="d-block w-100" alt="Image 8" style="width: 45px%; height: 45%; object-fit: cover;">
+                <div class="caption" style="position: absolute; bottom: 20px; left: 20px; background: rgba(0, 0, 0, 0.5); color: white; padding: 10px; font-size: 20px;">Avatar Mountains</div>
+            </div>
+           
+        </div>
+        
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Bootstrap JS and Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

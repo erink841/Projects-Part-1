@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: hsl(157, 36%, 74%);
+	background-image: linear-gradient(to bottom right, cyan, cornflowerblue);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	margin: 0;
+}
+nav {
+    background-color: whitesmoke;
+    background-image: url("../assets/images/banner5.jpg"); /* Adjust path if needed */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    position: relative; /* Ensures it stays above other elements */
+    z-index: 1000; /* High z-index to be above overlay */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    transition: background 0.3s, box-shadow 0.3s, border 0.3s;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: cornsilk;
+    box-shadow: 0 0 10px lightblue;
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: cornsilk;
+    padding: 0;
+    margin: 0;
+    z-index: 1100; /* Ensure it's above the overlay */
+}
+
+nav ul li:hover .dropdown {
+    display: block;
+}
+
+.dropdown li a {
+    padding: 10px 15px;
+}
+
+.dropdown li a:hover {
+    background-color: lightblue;
+}
+
+/* Overlay Container (Lower z-index so dropdown appears above) */
+.overlay-container {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 2200px;
+    height: 700px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+
+    /* Positioning */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500; /* Lower than nav & dropdown */
+}
+
+.side-image {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.side-text {
+    font-size: 90px;
+    color: black;
+    font-weight: bold;
+    max-width: 100%;
+}
+.small-text {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    max-width: 30%;
+}

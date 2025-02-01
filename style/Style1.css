@@ -1,0 +1,110 @@
+
+  .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: normal;
+  align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  width: 100%; 
+  height: 370px;
+  background-color:#EDDCD2
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  width: 100%;  
+  height: 370px;
+  background-color:#F6F6EE;
+  font-size: 130px;
+  text-align:center;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+
+}
+.flex-items:nth-child(3) {
+  display: block;
+  width: 100%;  
+  height: 370px;
+  background-color:#A5A58D
+}
+.Erin
+{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+.Hello {
+  
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+
+
+.Hello2 {
+    text-align: center;
+    font-family: "Merriweather", serif;
+    line-height: 2;
+    width: 30%;
+    margin: auto;
+    font-size: larger;
+}
+
+.container {
+  
+            display: flex;
+            font-size: 15px;
+         
+           
+        }
+        .left {
+            flex: 1;
+            display: flex;
+            align-items:flex-start;
+            justify-content: center;
+            font-family: "Merriweather", serif;
+            background-color:#A6B8C0;
+            border-style: double;
+            text-align: left;
+            flex-grow: 7;
+            font-size: 25px;
+          
+           
+            
+            
+        }
+        .right {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            font-size: 15px;
+            flex-grow: 20;
+         
+        }
+        .right div {
+            flex: 1;
+     
+            border: 1px solid #000;
+            font-family: "Merriweather", serif;
+            background-color:#A6B8C0;
+            border-style: double;
+            text-align: left;
+            font-size: 25px;
+           
+        }
+
+        footer {
+            text-align: center;
+            font-family: "Merriweather", serif;
+            line-height: 6;
+            width: 100%;
+            margin: auto;
+            background-color:aliceblue;
+    
+        }
+        .click 
+        {
+            background-color: darkgrey;
+        }
